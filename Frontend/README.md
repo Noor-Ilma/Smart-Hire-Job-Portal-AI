@@ -1,76 +1,39 @@
-# Smart Hire in Job Portal Using AI
+# Frontend - Smart Hire
 
 ## Overview
-Smart Hire is an AI-powered recruitment platform that improves hiring by automating resume analysis, candidate ranking, and job recommendations.
+This folder contains the frontend of Smart Hire developed using React and Vite.
 
-The system uses Natural Language Processing (NLP) and skill-matching techniques to compare candidate resumes with job requirements.
+The frontend provides user interfaces for recruiters and candidates.
 
 ---
 
-## Features
+## Main Modules
 - Resume Upload
-- Skill Extraction
-- Candidate Ranking
-- Job Recommendation
-- Search and Filter
+- Job / Candidate Listing
+- Search & Filter
+- Ranking Display
+- Recommendation Results
 - CSV Export
-- Recruiter Dashboard
 
 ---
 
 ## Technologies Used
-### Frontend
 - React
 - Vite
 - JavaScript
 - CSS
 
-### Backend
-- Node.js
-- Express.js
-
-### Database
-- MongoDB
-
-### AI / Matching
-- TF-IDF
-- Jaccard Similarity
-- Skill Matching Logic
-
 ---
 
-## Project Structure
-Smart-Hire-Job-Portal-AI/
-├── Frontend/
-├── Backend/
-├── Report/
-├── PPT/
-├── PublishedPaper/
-├── ReferencePapers/
+## Run Frontend
 
----
-
-## How to Run
-
-### Frontend
-cd Frontend
 npm install
 npm run dev
 
-### Backend
-cd Backend
-npm install
-npm start
-
 ---
 
-## Authors
-- Reshmi Kaja
-- Noor Ilma
-- Sai Thriguna
-- Hima Bindu
-
----
-
-## Publication
-Paper published on Zenodo and submitted to IEEE conference.
+## Important Files
+- src/ -> Main source code
+- index.html -> Entry file
+- package.json -> Dependencies
+- .env.example -> Example environment variables
