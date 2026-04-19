@@ -35,3 +35,11 @@ This folder contains research papers, articles, and technical resources referred
 
 9. Express.js Documentation  
    Link: https://expressjs.com/
+
+10. TF-IDF
+    Salton, G., & Buckley, C. (1988).
+    Term-weighting approaches in automatic text retrieval.
+
+11. Jaccard Similarity
+    Jaccard, P. (1901).
+    Étude comparative de la distribution florale.
