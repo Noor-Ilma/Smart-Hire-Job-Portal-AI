@@ -1,0 +1,45 @@
+.container {
+  padding: 1rem;
+}
+
+.empty {
+  text-align: center;
+  padding: 2rem;
+  color: #999;
+}
+
+.listContainer {
+  display: grid;
+  gap: 1rem;
+}
+
+.candidateCard {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.candidateCard:hover {
+  background: #f0f0ff;
+}
+
+.candidateHeader h3 {
+  margin: 0;
+}
+
+.title {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.skills {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.skill {
+  background: #eee;
+  padding: 4px 8px;
+  border-radius: 4px;
+}

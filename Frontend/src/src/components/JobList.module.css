@@ -1,0 +1,21 @@
+.container { padding: 1rem; }
+.empty { text-align: center; padding: 2rem; color: #999; }
+.listContainer { display: grid; gap: 1rem; margin-bottom: 2rem; }
+.jobCard { background: #f9f9f9; padding: 1rem; border-radius: 8px; cursor: pointer; border: 2px solid transparent; transition: all 0.2s ease; }
+.jobCard:hover { border-color: #667eea; background: #f0f0ff; }
+.jobCard.selected { border-color: #667eea; background: white; box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2); }
+.jobHeader { margin-bottom: 0.75rem; }
+.jobHeader h3 { margin: 0; color: #333; font-size: 1.1rem; }
+.company { color: #666; font-size: 0.9rem; margin-left: 0.5rem; }
+.jobMeta { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.75rem; }
+.badge { background: #e8eaff; color: #667eea; padding: 0.25rem 0.6rem; border-radius: 4px; font-size: 0.8rem; font-weight: 500; }
+.skills { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.skill { background: #f0f0f0; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.8rem; }
+.skillMore { color: #999; font-size: 0.8rem; font-weight: 500; }
+.details { background: white; border: 1px solid #ddd; padding: 1rem; border-radius: 8px; margin-top: 1rem; }
+.details h3 { margin-top: 0; color: #333; }
+.details p { margin: 0.5rem 0; color: #666; }
+.closeButton { margin-top: 1rem; padding: 0.5rem 1rem; background: #e8e8e8; border: none; border-radius: 4px; cursor: pointer; }
+.pagination { display: flex; justify-content: center; gap: 1rem; align-items: center; margin-top: 1rem; }
+.pagination button { padding: 0.5rem 1rem; background: #f0f0f0; border: 1px solid #ddd; border-radius: 4px; cursor: pointer; }
+.pagination button:disabled { opacity: 0.5; cursor: not-allowed; }

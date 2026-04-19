@@ -1,0 +1,28 @@
+.container { padding: 1rem; }
+.empty { text-align: center; padding: 3rem 1rem; color: #999; }
+.loading { text-align: center; padding: 2rem; font-size: 1.1rem; }
+.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
+.controls { display: flex; gap: 0.75rem; }
+.select, .buttonExport { padding: 0.6rem 1rem; background: white; border: 1px solid #ddd; border-radius: 6px; cursor: pointer; font-weight: 500; }
+.buttonExport { background: #667eea; color: white; border: none; }
+.matchesContainer { display: grid; gap: 1rem; }
+.matchCard { background: #f9f9f9; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; cursor: pointer; transition: all 0.2s ease; }
+.matchCard:hover { border-color: #667eea; }
+.matchHeader { padding: 1rem; }
+.matchTitles { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem; }
+.jobTitle, .candidateName { margin: 0; font-size: 1rem; }
+.arrow { color: #ccc; font-size: 1.2rem; }
+.matchScores { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.scoreChip { display: inline-block; padding: 0.4rem 0.8rem; border-radius: 4px; font-size: 0.85rem; font-weight: 600; }
+.scoreChip.claude { background: #e8eaff; color: #667eea; }
+.scoreChip.similarity { background: #efe8ff; color: #764ba2; }
+.scoreChip.recommendation { color: white; }
+.scoreChip.recommendation.hire { background: #4caf50; }
+.scoreChip.recommendation.consider { background: #ff9800; }
+.scoreChip.recommendation.pass { background: #f44336; }
+.matchDetails { padding: 0 1rem 1rem; border-top: 1px solid #eee; }
+.explanation { margin-bottom: 1rem; }
+.explanation strong { display: block; color: #333; margin-bottom: 0.5rem; }
+.explanation p { color: #666; line-height: 1.5; margin: 0; }
+.metadata { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; padding: 0.75rem; background: #f5f5f5; border-radius: 4px; }
+.metadata p { margin: 0; font-size: 0.9rem; color: #666; }
