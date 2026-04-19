@@ -74,3 +74,11 @@ npm start
 
 ## Publication
 Paper published on Zenodo and submitted to IEEE conference.
+
+## Published Paper
+
+Our project research paper has been published.
+
+**Title:** Smart Hire in Job Portal Using AI
+
+Included file: `PublishedPaper.pdf`
